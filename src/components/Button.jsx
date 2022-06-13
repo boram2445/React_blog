@@ -2,7 +2,7 @@ import './button.css';
 
 function Button({color='', icon, children}){
   return(
-    <button class={`button ${color}`}>
+    <button className={`button ${color}`}>
       <img src={icon} alt="" />
       <span>{children}</span>
     </button>

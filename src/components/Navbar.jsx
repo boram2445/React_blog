@@ -4,13 +4,15 @@ import logo from '../assets/Logo.svg';
 import profileImg from '../assets/profile.jpg';
 import modifyIcon from '../assets/icon-modify-white.svg';
 import logoutIcon from '../assets/icon-logout.svg';
+import {useNavigate} from 'react-router-dom';
 
 function Navbar(){
+	let navigate = useNavigate();
   return(
     <header>
-			<div class="max-width">
+			<div className="max-width">
 				<h1>
-					<img src={logo} alt="My Blog" />
+					<img src={logo} alt="My Blog" onClick={()=>{navigate('/')}}/>
 				</h1>
 				<ul>
           {/* 로그인 */}

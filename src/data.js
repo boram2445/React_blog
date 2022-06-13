@@ -1,6 +1,7 @@
 const postData = [
   {
     img : 'assets/post-img6.jpg',
+    authorImg : './assets/profile.jpg',
     author : 'Chilli',
     date : '2022.05.25',
     category : ['Life','style'],
@@ -9,6 +10,7 @@ const postData = [
   },
   {
     img : 'assets/post-img5.jpg',
+    authorImg : './assets/profile.jpg',
     author : 'Chilli',
     date : '2022.05.25',
     category : ['Life','style'],
@@ -17,6 +19,7 @@ const postData = [
   },
   {
     img : 'assets/post-img4.jpg',
+    authorImg : './assets/profile.jpg',
     author : 'Chilli',
     date : '2022.05.25',
     category : ['Life','style'],
@@ -25,6 +28,7 @@ const postData = [
   },
   {
     img : 'assets/post-img3.jpg',
+    authorImg : './assets/profile.jpg',
     author : 'Chilli',
     date : '2022.05.25',
     category : ['Life','style'],
@@ -33,6 +37,7 @@ const postData = [
   },
   {
     img : 'assets/post-img2.jpg',
+    authorImg : './assets/profile.jpg',
     author : 'Chilli',
     date : '2022.05.25',
     category : ['Life','style'],
@@ -41,6 +46,7 @@ const postData = [
   },
   {
     img : 'assets/post-img1.jpg',
+    authorImg : './assets/profile.jpg',
     author : 'Chilli',
     date : '2022.05.25',
     category : ['Life','style'],
