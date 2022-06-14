@@ -1,5 +1,5 @@
 import './post.css';
-import PostWrap from '../components/postWrap';
+import PostWrap from '../components/PostWrap/PostWrap';
 
 function Post(){
   return(

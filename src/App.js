@@ -1,10 +1,10 @@
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 import Home from './pages/Home';
 import './css/reset.css';
 import './css/global.css';
 import Post from './pages/Post';
-import {Routes, Route, Link} from 'react-router-dom';
+import {Routes, Route} from 'react-router-dom';
 
 function App() {
 	return (<>

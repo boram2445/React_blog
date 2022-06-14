@@ -1,7 +1,7 @@
 import './postWrap.css';
-import Author from './Author';
-import Category from '../components/Category';
-import authorImg from '../assets/profile.jpg';
+import Author from '../Author/Author';
+import Category from '../Category/Category';
+import authorImg from '../../assets/profile.jpg';
 
 function postWrap(){
   return(

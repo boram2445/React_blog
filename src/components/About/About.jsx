@@ -1,9 +1,9 @@
 import './about.css';
-import userImg from '../assets/profile.jpg';
-import FacebookIcon from '../assets/Facebook.svg';
-import TwitterIcon from '../assets/Twitter.svg';
-import InstagramIcon from '../assets/Instagram.svg';
-import GithubIcon from '../assets/Github.svg';
+import userImg from '../../assets/profile.jpg';
+import FacebookIcon from '../../assets/Facebook.svg';
+import TwitterIcon from '../../assets/Twitter.svg';
+import InstagramIcon from '../../assets/Instagram.svg';
+import GithubIcon from '../../assets/Github.svg';
 
 function About(){
   return(

@@ -1,6 +1,6 @@
 import './posts.css';
-import Post from './post';
-import postData from '../data';
+import Post from '../Post/post';
+import postData from '../../data';
 
 function Posts(){
   return(

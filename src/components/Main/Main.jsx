@@ -1,6 +1,6 @@
 import './main.css';
-import About from './About';
-import Posts from './Posts';
+import About from '../About/About';
+import Posts from '../Posts/Posts';
 
 function Main(){
   return(

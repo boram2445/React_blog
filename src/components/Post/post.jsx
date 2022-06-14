@@ -1,7 +1,7 @@
-import Category from './Category';
-import Author from './Author';
+import Category from '../Category/Category';
+import Author from '../Author/Author';
 import './post.css';
-import authorImg from '../assets/profile.jpg';
+import authorImg from '../../assets/profile.jpg';
 import {useNavigate} from 'react-router-dom';
 
 function Post({img, author, date, category, title, content}){
