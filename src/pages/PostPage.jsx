@@ -2,7 +2,7 @@ import './postPage.css';
 import PostWrap from '../components/PostWrap/PostWrap';
 import { useParams } from 'react-router-dom';
 
-function PostPage({data}){
+function PostPage({data, navigate}){
   let {id} = useParams();
   let postData = data.posts.filter((item)=> item.id === parseInt(id)).pop();
   const changeDate = () => {
@@ -26,7 +26,7 @@ function PostPage({data}){
       </div>
       <div className="view">
         <div className="max-width">
-          <PostWrap postData={postData}/>
+          <PostWrap postData={postData} navigate={navigate}/>
         </div>
       </div>
     </>

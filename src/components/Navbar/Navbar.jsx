@@ -4,10 +4,8 @@ import logo from '../../assets/Logo.svg';
 import profileImg from '../../assets/profile.jpg';
 import modifyIcon from '../../assets/icon-modify-white.svg';
 import logoutIcon from '../../assets/icon-logout.svg';
-import {useNavigate} from 'react-router-dom';
 
-function Navbar(){
-	let navigate = useNavigate();
+function Navbar({navigate}){
   return(
     <header>
 			<div className="max-width">

@@ -27,7 +27,7 @@ function postWrap({postData, navigate}){
             <span className="a11y-hidden">delete</span>
           </button>
         </div>
-        <a className="btn-back" >
+        <a className="btn-back" onClick={()=>{navigate('/')}}>
           <span className="a11y-hidden">Back</span>
         </a>
       </div>
