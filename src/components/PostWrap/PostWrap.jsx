@@ -1,37 +1,23 @@
 import './postWrap.css';
 import Author from '../Author/Author';
 import Category from '../Category/Category';
-import authorImg from '../../assets/profile.jpg';
 
-function postWrap(){
+function postWrap({postData, navigate}){
+  let {category, title, contents, created, userName, profileImg} = postData;
   return(
     <section className="wrap-box">
       <div className="inner">
-        <Author authorImg={authorImg} author={'Chilli'} date={'2022.05.25'}/>
-        <Category category={['Life', 'Style']}/>
+        <Author authorImg={profileImg} author={userName} date={created}/>
+        <Category category={category}/>
         <div className="title-wrap">
-          <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h2>
+          <h2>{title}</h2>
           <button className="btn-like">Like</button>
         </div>
         <hr />
         <div className="view-contents">
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore illum nostrum perferendis voluptas, voluptate soluta corrupti dolore quidem. Placeat, eaque! Exercitationem est
-            facilis dolor quas odio cum incidunt repudiandae vel. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore illum nostrum perferendis voluptas, voluptate soluta corrupti
-            dolore quidem. Placeat, eaque! Exercitationem est facilis dolor quas odio cum incidunt repudiandae vel. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore illum
-            nostrum perferendis voluptas, voluptate soluta corrupti dolore quidem. Placeat, eaque! Exercitationem est facilis dolor quas odio cum incidunt repudiandae vel. Lorem ipsum dolor sit
-            amet consectetur, adipisicing elit. Inventore illum nostrum perferendis voluptas, voluptate soluta corrupti dolore quidem. Placeat, eaque! Exercitationem est facilis dolor quas odio
-            cum incidunt repudiandae vel.
-          </p>
-          <img src="./images/post-background6.jpg" alt="" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore illum nostrum perferendis voluptas, voluptate soluta corrupti dolore quidem. Placeat, eaque! Exercitationem est
-            facilis dolor quas odio cum incidunt repudiandae vel. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore illum nostrum perferendis voluptas, voluptate soluta corrupti
-            dolore quidem. Placeat, eaque! Exercitationem est facilis dolor quas odio cum incidunt repudiandae vel. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore illum
-            nostrum perferendis voluptas, voluptate soluta corrupti dolore quidem. Placeat, eaque! Exercitationem est facilis dolor quas odio cum incidunt repudiandae vel. Lorem ipsum dolor sit
-            amet consectetur, adipisicing elit. Inventore illum nostrum perferendis voluptas, voluptate soluta corrupti dolore quidem. Placeat, eaque! Exercitationem est facilis dolor quas odio
-            cum incidunt repudiandae vel.
-          </p>
+          {contents.map((value)=>{
+            return(<Content element={value.type} text={value.text} src={value.src}/>);
+          })}
         </div>
         <div className="btn-group">
           <a href="#" className="btn-modify">
@@ -41,12 +27,24 @@ function postWrap(){
             <span className="a11y-hidden">delete</span>
           </button>
         </div>
-        <a href="./" className="btn-back">
+        <a className="btn-back" >
           <span className="a11y-hidden">Back</span>
         </a>
       </div>
     </section>
   );
+}
+
+function Content({element, text='', src=''}){
+  if(element === 'p'){
+    return(
+      <p>{text}</p>
+    );
+  } else if(element === 'img'){
+    return(
+      <img src={src}/>
+    );
+  }
 }
 
 export default postWrap;

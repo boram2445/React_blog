@@ -1,13 +1,15 @@
 import './posts.css';
 import Post from '../Post/post';
-import postData from '../../data';
 
-function Posts(){
+function Posts({postData}){
+  const sortData = [...postData].sort((a,b)=>{
+    return a.id < b.id ? 1 : -1;
+  })
   return(
     <ul className="posts">
-      {postData.map((value, index)=>{
+      {sortData.map((value)=>{
         return(
-          <Post key={index} img={value.img} author={value.author} date={value.date} category={value.category} title={value.title} content={value.content}/>
+          <Post key={value.id} data={value}/>
         );
       })}
     </ul>

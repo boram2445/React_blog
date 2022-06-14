@@ -167,7 +167,7 @@
 			"name": "Chilli",
 			"userInfo": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
 			"category": ["Life", "Style", "Tech", "Sport", "Photo", "Develop", "Music"],
-			"sns": { "GitHub": "", "Facebook": "", "Twitter": "", "Instagram": "" }
+			"sns": { "GitHub": "https://github.com/", "Facebook": "", "Twitter": "", "Instagram": "" }
 		},
 		{
 			"id": 2,
