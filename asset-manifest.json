@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/React_blog/static/css/main.29198596.css",
-    "main.js": "/React_blog/static/js/main.19843023.js",
-    "static/media/background.jpg": "/React_blog/static/media/background.9d8ffdf2b026e3a71002.jpg",
-    "static/media/profile.jpg": "/React_blog/static/media/profile.e2608c2bb9d5a58c15ce.jpg",
-    "static/media/Github.svg": "/React_blog/static/media/Github.44eca8266047557a439218d2afc94622.svg",
-    "static/media/Logo.svg": "/React_blog/static/media/Logo.ea185720a23355dde4b383c500d5238d.svg",
-    "static/media/Twitter.svg": "/React_blog/static/media/Twitter.710e72afc7caf1b555e2ce576d59b6bc.svg",
-    "static/media/icon-modify.svg": "/React_blog/static/media/icon-modify.a0c44dddeeb034405fbd.svg",
-    "static/media/Instagram.svg": "/React_blog/static/media/Instagram.257baf24eaca6782ee43c4f644618e3e.svg",
-    "static/media/Facebook.svg": "/React_blog/static/media/Facebook.3bf3b52a20142d76f4db7786706685a0.svg",
-    "static/media/icon-delete.svg": "/React_blog/static/media/icon-delete.cdfd12b1245deea1ae59.svg",
-    "static/media/icon-modify-white.svg": "/React_blog/static/media/icon-modify-white.7936232650b55b108bd177114b80eedb.svg",
-    "static/media/icon-logout.svg": "/React_blog/static/media/icon-logout.24d6f1e18bf12b306a121ff821cd4266.svg",
-    "static/media/icon-like.svg": "/React_blog/static/media/icon-like.ea57499461b6f402eadd.svg",
-    "static/media/icon-delete-white.svg": "/React_blog/static/media/icon-delete-white.b1c660db8a27a74dad21.svg",
-    "static/media/icon-like-white.svg": "/React_blog/static/media/icon-like-white.547a2a003e8f8143fc9c.svg",
-    "index.html": "/React_blog/index.html",
-    "static/media/ArrowLeft-blue.svg": "/React_blog/static/media/ArrowLeft-blue.a8f040986b41c7713bf5.svg",
-    "static/media/ArrowTop.svg": "/React_blog/static/media/ArrowTop.31b9123f76deea3066cd.svg",
-    "main.29198596.css.map": "/React_blog/static/css/main.29198596.css.map",
-    "main.19843023.js.map": "/React_blog/static/js/main.19843023.js.map"
+    "main.css": "/static/css/main.fc227c1c.css",
+    "main.js": "/static/js/main.b8414912.js",
+    "static/media/background.jpg": "/static/media/background.9d8ffdf2b026e3a71002.jpg",
+    "static/media/profile.jpg": "/static/media/profile.e2608c2bb9d5a58c15ce.jpg",
+    "static/media/Github.svg": "/static/media/Github.44eca8266047557a439218d2afc94622.svg",
+    "static/media/Logo.svg": "/static/media/Logo.ea185720a23355dde4b383c500d5238d.svg",
+    "static/media/Twitter.svg": "/static/media/Twitter.710e72afc7caf1b555e2ce576d59b6bc.svg",
+    "static/media/icon-modify.svg": "/static/media/icon-modify.a0c44dddeeb034405fbd.svg",
+    "static/media/Instagram.svg": "/static/media/Instagram.257baf24eaca6782ee43c4f644618e3e.svg",
+    "static/media/Facebook.svg": "/static/media/Facebook.3bf3b52a20142d76f4db7786706685a0.svg",
+    "static/media/icon-delete.svg": "/static/media/icon-delete.cdfd12b1245deea1ae59.svg",
+    "static/media/icon-modify-white.svg": "/static/media/icon-modify-white.7936232650b55b108bd177114b80eedb.svg",
+    "static/media/icon-logout.svg": "/static/media/icon-logout.24d6f1e18bf12b306a121ff821cd4266.svg",
+    "static/media/icon-like.svg": "/static/media/icon-like.ea57499461b6f402eadd.svg",
+    "static/media/icon-delete-white.svg": "/static/media/icon-delete-white.b1c660db8a27a74dad21.svg",
+    "static/media/icon-like-white.svg": "/static/media/icon-like-white.547a2a003e8f8143fc9c.svg",
+    "static/media/ArrowLeft-blue.svg": "/static/media/ArrowLeft-blue.a8f040986b41c7713bf5.svg",
+    "static/media/ArrowTop.svg": "/static/media/ArrowTop.31b9123f76deea3066cd.svg",
+    "index.html": "/index.html",
+    "main.fc227c1c.css.map": "/static/css/main.fc227c1c.css.map",
+    "main.b8414912.js.map": "/static/js/main.b8414912.js.map"
   },
   "entrypoints": [
-    "static/css/main.29198596.css",
-    "static/js/main.19843023.js"
+    "static/css/main.fc227c1c.css",
+    "static/js/main.b8414912.js"
   ]
 }
