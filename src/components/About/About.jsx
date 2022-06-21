@@ -9,7 +9,7 @@ function About({userData}){
   return(
     <aside className="about">
       <h2>About Me</h2>
-      <img src={user1.profileImg} alt="" className="user-profile" />
+      <img src={process.env.PUBLIC_URL + user1.profileImg} alt="" className="user-profile" />
       <p className="user-name">{user1.name}</p>
       <p className="user-description">{user1.userInfo}</p>
       <h3>Categories</h3>

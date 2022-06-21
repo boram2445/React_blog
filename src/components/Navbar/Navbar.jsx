@@ -10,7 +10,7 @@ function Navbar({navigate}){
     <header>
 			<div className="max-width">
 				<h1>
-					<img src={logo} alt="My Blog" onClick={()=>{navigate('/')}}/>
+					<img src={logo} alt="My Blog" onClick={()=>{navigate('/React_blog/')}}/>
 				</h1>
 				<ul>
           {/* 로그인 */}

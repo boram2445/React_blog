@@ -16,7 +16,7 @@ function postWrap({postData, navigate}){
         <hr />
         <div className="view-contents">
           {contents.map((value)=>{
-            return(<Content element={value.type} text={value.text} src={value.src}/>);
+            return(<Content element={value.type} text={value.text} src={process.env.PUBLIC_URL + value.src}/>);
           })}
         </div>
         <div className="btn-group">
@@ -27,7 +27,7 @@ function postWrap({postData, navigate}){
             <span className="a11y-hidden">delete</span>
           </button>
         </div>
-        <a className="btn-back" onClick={()=>{navigate('/')}}>
+        <a className="btn-back" onClick={()=>{navigate('/React_blog/')}}>
           <span className="a11y-hidden">Back</span>
         </a>
       </div>

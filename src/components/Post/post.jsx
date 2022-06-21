@@ -7,9 +7,9 @@ function Post({data}){
   let {id, thumbnail, category, title, contents, created, userName, profileImg} = data;
   let navigate = useNavigate(); 
   return(
-    <li className="post" onClick={()=>{navigate(`/post/${id}`)}}>
+    <li className="post" onClick={()=>{navigate(`/React_blog/post/${id}`)}}>
       <article>
-        <img src={thumbnail} alt="" />
+        <img src={ process.env.PUBLIC_URL + thumbnail} alt="" />
         <div className="contents-wrap">
           <Category category={category}/>
           <h3>{title}</h3>
