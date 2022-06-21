@@ -1,5 +1,9 @@
 # React Blog
 
+https://boram2445.github.io/React_blog/
+
+
+
 ## 현재 브랜치 셋팅 정보
 
 1. `npx create-react-app ./` : 해당 폴더에 React 설치
@@ -19,4 +23,4 @@
 4. 더미 데이터를 가져와 게시글, 블로그 정보, 유저정보 뿌려주기
 
 
-https://boram2445.github.io/React_blog/
+
