@@ -13,7 +13,7 @@ function App() {
 	return (<>
 		<Navbar navigate={navigate}/>
 		<Routes>
-			<Route path='/' element={<Home data={data}/>}/>
+			<Route path='/home' element={<Home data={data}/>}/>
 			<Route path='/post/:id' element={<PostPage data={data} navigate={navigate}/>}/>
 			<Route path='*' element={<h1>잘못된 경로입니다</h1>}></Route>
 		</Routes>

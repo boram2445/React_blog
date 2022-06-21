@@ -20,7 +20,7 @@ function postWrap({postData, navigate}){
           })}
         </div>
         <div className="btn-group">
-          <a href="#" className="btn-modify">
+          <a className="btn-modify">
             <span className="a11y-hidden">modify</span>
           </a>
           <button type="button" className="btn-delete">

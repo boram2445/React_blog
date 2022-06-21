@@ -1,9 +1,9 @@
 footer {
 	background: var(--white-color);
-	margin-top: 10rem;
 }
 
 footer .max-width {
+	margin-top: 10rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
