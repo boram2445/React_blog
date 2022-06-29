@@ -51,6 +51,7 @@
 	position: absolute;
 	top: 8rem;
 	left: 0;
+	cursor: pointer;
 }
 
 .view .category {
