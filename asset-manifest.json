@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/React_blog/static/css/main.29198596.css",
-    "main.js": "/React_blog/static/js/main.34d0c324.js",
+    "main.css": "/React_blog/static/css/main.2a2e4a10.css",
+    "main.js": "/React_blog/static/js/main.7a8fb99b.js",
     "static/media/background.jpg": "/React_blog/static/media/background.9d8ffdf2b026e3a71002.jpg",
     "static/media/profile.jpg": "/React_blog/static/media/profile.e2608c2bb9d5a58c15ce.jpg",
     "static/media/Github.svg": "/React_blog/static/media/Github.44eca8266047557a439218d2afc94622.svg",
     "static/media/Logo.svg": "/React_blog/static/media/Logo.ea185720a23355dde4b383c500d5238d.svg",
     "static/media/Twitter.svg": "/React_blog/static/media/Twitter.710e72afc7caf1b555e2ce576d59b6bc.svg",
     "static/media/icon-modify.svg": "/React_blog/static/media/icon-modify.a0c44dddeeb034405fbd.svg",
+    "static/media/icon-register.svg": "/React_blog/static/media/icon-register.14da19af764629d809f4443e36ee3427.svg",
     "static/media/Instagram.svg": "/React_blog/static/media/Instagram.257baf24eaca6782ee43c4f644618e3e.svg",
     "static/media/Facebook.svg": "/React_blog/static/media/Facebook.3bf3b52a20142d76f4db7786706685a0.svg",
     "static/media/icon-delete.svg": "/React_blog/static/media/icon-delete.cdfd12b1245deea1ae59.svg",
@@ -15,15 +16,16 @@
     "static/media/icon-logout.svg": "/React_blog/static/media/icon-logout.24d6f1e18bf12b306a121ff821cd4266.svg",
     "static/media/icon-like.svg": "/React_blog/static/media/icon-like.ea57499461b6f402eadd.svg",
     "static/media/icon-delete-white.svg": "/React_blog/static/media/icon-delete-white.b1c660db8a27a74dad21.svg",
+    "static/media/icon-login.svg": "/React_blog/static/media/icon-login.8e36ae402cd69fd4cdea4c5934019277.svg",
     "static/media/icon-like-white.svg": "/React_blog/static/media/icon-like-white.547a2a003e8f8143fc9c.svg",
     "index.html": "/React_blog/index.html",
     "static/media/ArrowLeft-blue.svg": "/React_blog/static/media/ArrowLeft-blue.a8f040986b41c7713bf5.svg",
     "static/media/ArrowTop.svg": "/React_blog/static/media/ArrowTop.31b9123f76deea3066cd.svg",
-    "main.29198596.css.map": "/React_blog/static/css/main.29198596.css.map",
-    "main.34d0c324.js.map": "/React_blog/static/js/main.34d0c324.js.map"
+    "main.2a2e4a10.css.map": "/React_blog/static/css/main.2a2e4a10.css.map",
+    "main.7a8fb99b.js.map": "/React_blog/static/js/main.7a8fb99b.js.map"
   },
   "entrypoints": [
-    "static/css/main.29198596.css",
-    "static/js/main.34d0c324.js"
+    "static/css/main.2a2e4a10.css",
+    "static/js/main.7a8fb99b.js"
   ]
 }
